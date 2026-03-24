@@ -45,6 +45,8 @@ The key phrase is **current page context**. When ```location.href = "javascript:
 
 That's why it's dangerous. It's equivalent in impact to reflected or stored XSS. You get arbitrary JS running as the victim on the target origin.
 
+Consider two paths to code execution:
+
 ![diagram pic of Two Paths to Execution](img/location-href-sink-diagram.png)
 
 Now that we understand how the sink works, the next question is: what happens when developers try to fix it?

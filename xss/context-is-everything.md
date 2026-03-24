@@ -164,10 +164,7 @@ So, breaking out of the string is blocked. But remember, you're inside a ```<scr
 
 Think about what that might be. What tag, if it appeared inside a script block, would make the browser stop parsing JavaScript? ```</script>```
 
-Try it. Search for:
-```html
-</script><img src=x onerror=alert(1)>
-```
+Try it. Search for: ```</script><img src=x onerror=alert(1)>```
 
 Then look at what the script block looks like in source.
 
