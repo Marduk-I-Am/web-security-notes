@@ -328,3 +328,4 @@ Before you type any payload, ask yourself the three questions:
 Once you answer those, the correct payload will almost write itself. Master this mindset, and you've taken a critical step toward thinking like a web security professional.
 
 
+In the next article, [Stop Guessing XSS Payloads: Identify Context in 3 Steps](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/stop-guessing-xss-payloads.md), we’ll take these concepts a step further and turn them into a practical workflow. Showing you how to quickly identify where your input lands and what actions to take for each reflection.

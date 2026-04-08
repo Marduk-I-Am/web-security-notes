@@ -9,11 +9,11 @@ This article builds directly on my previous write-up, [*Context Is Everything: A
 In this article, we’re taking that idea further. Moving from understanding context to quickly identifying it on real targets.
 
 We’ll focus on three core contexts you’ll encounter in server-rendered responses:
-- HTML body
-- Attribute context
-- JavaScript context
+- **HTML body**
+- **Attribute context**
+- **JavaScript context**
 
-There’s a fourth (URL-based contexts), but that introduces additional complexity and deserves its own deep dive. I will cover that topic in a follow-up.
+There’s a fourth (**URL-based contexts**), but that introduces additional complexity and deserves its own deep dive. I will cover that topic in a follow-up.
 
 If the first article was about understanding the different contexts, this one is about speed. When you're working on a real target, you don't have time to slowly analyze everything. You need a quick, repeatable way to identify where your input lands and what’s possible.
 
@@ -21,7 +21,7 @@ This is that process.
 
 ## Introduction
 
-Given a live target with a reflection, how do you quickly identify which context you're in and what's filtered? The process has **three steps**. Stop trying to guess payloads. Try to understand how the browser is interpreting your input.
+Given a live target with a reflection, how do you quickly identify which context you're in and what's filtered? The process has **three steps**. Stop trying to guess payloads. Try to understand how the browser interprets your input.
 
 Every time you find a reflection, before you touch a payload list, do these three things **in order**.
 
@@ -59,14 +59,6 @@ Ask yourself:
       doSearch(query);
     </script>
     ```
-- Is it the value of an href, src, action, or formaction attribute? **URL context**.
-    - Do you control the whole value or just part of it?
-        - This matters because different injection paths open depending on your level of control.
-    ```html
-    <a href="/profile?user=M4rduk">
-    ```
-    - This is more in depth and will require its own dedicated write-up.
-        - See [JS-File_Inspection](link coming - placeholder)
 
 ## Step 3: Probe what's filtered before throwing payloads
 
@@ -185,7 +177,7 @@ Send a `"` to try to break out of the attribute: `M"4rduk`
     <input type="text" name="search" value="M"4rduk">
     ```
     - Goes through unchanged. You can break out, attribute injection is open.
-    - From here you can start crafting your payload starting with a double quote.
+    - From here you can start crafting your payload, starting with a double quote.
 
 At this point, if your double quote comes back encoded or escaped, this attribute **is not escapable** with that delimiter. Move on to your next reflection in the page source and begin again.
 
