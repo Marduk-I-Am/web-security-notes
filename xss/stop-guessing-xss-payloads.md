@@ -168,7 +168,7 @@ Send a `"` to try to break out of the attribute: `M"4rduk`
     - quotes are **encoded**, attribute escape is blocked
 - If you see ```\"```:
     ```html
-    <input type="text" name="search" value="M\"4rduk"
+    <input type="text" name="search" value="M\"4rduk">
     ```
     - quotes are **escaped**, attribute escape is blocked
 
