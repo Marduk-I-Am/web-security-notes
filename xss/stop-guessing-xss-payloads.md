@@ -13,7 +13,7 @@ We’ll focus on three core contexts you’ll encounter in server-rendered respo
 - **Attribute context**
 - **JavaScript context**
 
-There’s a fourth (**URL-based contexts**), but that introduces additional complexity and deserves its own deep dive. I will cover that topic in a follow-up.
+There’s a fourth (**URL-based contexts**), but that introduces additional complexity and deserves its own deep dive. I cover that topic in [*Why `location.href` Isn’t Just a Redirect*](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/location-href-navigation-xss.md).
 
 If the first article was about understanding the different contexts, this one is about speed. When you're working on a real target, you don't have time to slowly analyze everything. You need a quick, repeatable way to identify where your input lands and what’s possible.
 
