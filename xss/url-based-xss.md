@@ -63,7 +63,7 @@ Common sinks:
 - `setTimeout()` / `setInterval()` with a string argument
 - `location.href =` ... (when set to attacker-controlled data)
 
-DOM-based XSS vulnerabilities exist when there's a path from source to sink with insufficient sanitisation in between.
+DOM-based XSS vulnerabilities exist when there's a path from source to sink with insufficient sanitization in between.
 
 ## Example Work-through: `document.write()`
 
