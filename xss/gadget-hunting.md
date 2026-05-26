@@ -26,6 +26,9 @@ The solution is to use a ***canary***. A harmless property with a unique value t
 After attempting pollution (e.g., `https://example.com/?__proto__[canary]=infected`), check for inheritance in the console:
 ```javascript
 console.log(({}).canary);
+
+// Or, more simply:
+({}).canary
 ```
 
 **Why not `Object.prototype.canary`?** That checks property existence, **not** inheritance. Even worse, if you've been experimenting in the console and set properties manually, `Object.prototype.canary` will lie to you. It'll show your value even if the application's pollution vector never worked. 
