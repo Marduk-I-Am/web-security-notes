@@ -10,6 +10,7 @@ A growing collection of practical web application security write-ups, labs, and 
     - [URL-Based XSS: When JavaScript Hides the Vulnerability](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/url-based-xss.md)
     - [Prototype Pollution: Turning Property Lookups into Code Execution](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/prototype-pollution.md)
     - [Gadget Hunting in Practice](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/gadget-hunting.md)
+    - [Prototype Pollution in Practice: Solving DOM XSS Labs Methodically](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/prototype-pollution-in-practice.md)
 - SQL Injection
 - Access Control
 - Client-side vulnerabilities
