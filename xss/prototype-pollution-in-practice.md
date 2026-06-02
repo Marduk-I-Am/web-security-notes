@@ -165,7 +165,7 @@ Use the following payload:
 /?__proto__.sequence=TEST
 ```
 
-Set a breakpoint on the eval() call in searchLoggerAlternative.js and refresh the page.
+Set a breakpoint on the eval() call in `searchLoggerAlternative.js` and refresh the page.
 
 ![Reached the sink, shown in DOM debugger](img/reached-the-sink.png)
 
