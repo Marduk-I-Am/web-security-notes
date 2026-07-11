@@ -15,6 +15,7 @@ The goal of this repository is to document concepts, techniques, and real-world 
 - [Gadget Hunting in Practice](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/gadget-hunting.md)
 - [Prototype Pollution in Practice: Solving DOM XSS Labs Methodically](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/prototype-pollution-in-practice.md)
 - [Reading CSPs Like an Attacker: Understanding Content Security Policy for XSS Testing](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/reading-csps-like-an-attacker.md)
+- [Breaking CSPs: Practical Content Security Policy Bypass Techniques](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/breaking-csps.md)
 
 ### SQL Injection
 ### Access Control
