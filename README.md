@@ -25,6 +25,9 @@ The goal of this repository is to document concepts, techniques, and real-world 
 - [Reading CSPs Like an Attacker: Understanding Content Security Policy for XSS Testing](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/reading-csps-like-an-attacker.md)
 - [Breaking CSPs: Practical Content Security Policy Bypass Techniques](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/breaking-csps.md)
 
+**Real-World Application & Methodology**
+- [DOM Invader on a Real Bug Bounty Target: 10 Sink Hits, 0 Vulnerabilities](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/dom-invader-on-real-bug-bounty-target.md)
+
 ### SQL Injection
 ### Access Control
 ### Client-side vulnerabilities
