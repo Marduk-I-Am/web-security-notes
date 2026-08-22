@@ -16,6 +16,9 @@ The goal of this repository is to document concepts, techniques, and real-world 
 - [Why `location.href` Isn't Just a Redirect: Understanding Navigation-Based XSS](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/location-href-navigation-xss.md)
 - [URL-Based XSS: When JavaScript Hides the Vulnerability](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/url-based-xss.md)
 
+**DOM Sources Beyond `location.search`**
+- [Reading JS Files Like an Attacker: Notable Sources](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/reading-js-files-like-an-attacker-notable-sources.md)
+
 **Prototype Pollution & Gadget Chains**
 - [Prototype Pollution: Turning Property Lookups into Code Execution](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/prototype-pollution.md)
 - [Gadget Hunting in Practice](https://github.com/Marduk-I-Am/web-security-notes/blob/main/xss/gadget-hunting.md)
